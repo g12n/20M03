@@ -1,13 +1,12 @@
 {
-  "name": "canvas-sketch-template",
+  "name": "20M03",
   "version": "1.0.0",
   "description": "Template to kickstart a new canvas-sketch",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "npx canvas-sketch my-sketch.js --open", 
-    "build": "npx canvas-sketch my-sketch.js --build --inline --source-map false --name index --dir  _site/"
-
+    "dev": "npx canvas-sketch 20M03.js --open",
+    "build": "npx canvas-sketch 20M03.js --build --inline --source-map false --name index --dir  _site/"
   },
   "repository": {
     "type": "git",
@@ -23,6 +22,7 @@
     "canvas-sketch-cli": "^1.11.7"
   },
   "dependencies": {
-    "canvas-sketch": "^0.7.3"
+    "canvas-sketch": "^0.7.3",
+    "gl-vec2": "^1.3.0"
   }
 }
