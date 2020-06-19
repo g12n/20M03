@@ -17,7 +17,7 @@ const sketch = () => {
     let hue2 = hue +180;
     let center = [Math.random()*width, Math.random()*height]
     let pointCount =parseInt(Math.random()*2000) + 120 ;
-    let padding = 60;
+    let padding = 62;
 
     let boundsWidth = width-2*padding;
     let boundsHeight = height-2*padding;
