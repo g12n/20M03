@@ -1,0 +1,28 @@
+{
+  "name": "canvas-sketch-template",
+  "version": "1.0.0",
+  "description": "Template to kickstart a new canvas-sketch",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx canvas-sketch my-sketch.js --open", 
+    "build": "npx canvas-sketch my-sketch.js --build --inline --source-map false --name index --dir  _site/"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/g12n/canvas-sketch-template.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/g12n/canvas-sketch-template/issues"
+  },
+  "homepage": "https://github.com/g12n/canvas-sketch-template#readme",
+  "devDependencies": {
+    "canvas-sketch-cli": "^1.11.7"
+  },
+  "dependencies": {
+    "canvas-sketch": "^0.7.3"
+  }
+}
