@@ -62,10 +62,9 @@ const sketch = () => {
       // Now draw a circle at each point
       // Make them smaller when closer to centre
       
-      const radius = 10* Math.pow(t, 0.5);
-
+      let radius = 10* Math.pow(t, .5);
       if(i%2 != 0){
-        context.fillStyle = `hsl(${hue}, 40%, 60%)`;
+        context.fillStyle = `hsl(${hue}, 100%, 60%)`;
       } else{
         context.fillStyle = `hsl(${hue2}, 40%, 60%)`;
       }
